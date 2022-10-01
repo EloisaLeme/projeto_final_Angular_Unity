@@ -12,6 +12,12 @@ Verificar se o node e o npm foi instalado corretamente `node --version` e `npm -
 
 Instalar `npm install -g @angular/cli`
 
+# Projeto do zero 
+
+`ng new [nome do projeto]`
+
+`https://warcontent.com/angular-cli/`
+
 
 # ProjetoFinal
 
@@ -19,7 +25,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Para começar a rodar o projeto pode dar  `npm start`
+
+`npm start` executará o que você definiu para o start comando do scripts objeto em seu `package.json`
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Para mudar a porta dar o comando `ng serve --port 9090` 
 
 ## Code scaffolding
 
